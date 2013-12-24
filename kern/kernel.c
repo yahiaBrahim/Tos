@@ -37,7 +37,7 @@ int main(unsigned long magic, unsigned long addr)
    multiboot_info_t *mbi;
    mbi = (multiboot_info_t *) addr;
   
-   printf ("Addr of Muktibootinfo: 0x%x \n", mbi);
+   
    char cmd[256];    
  if (magic == MULTIBOOT_BOOTLOADER_MAGIC)
          {
