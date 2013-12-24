@@ -1,0 +1,19 @@
+TestOS_QuickGuide
+-----------------
+Quick Hints:
+------------
+0- A complete documentation is in the "Documentation" folder;
+1- To try TestOS, you need a virtual machine, you can use qemu,bochs or vmware ...
+2- To compile and try TestOS :
+	* go to the directory of testOS
+	* sudo make install	
+	* sudo make ct
+3-To compile TestOS without trying it with qemu, use :
+	make c	
+
+4- if you get an error, make sure you are root, and that you are in the directory
+   of TestOS, to solve the problem you can go to the Makefile, look at the section "ct" 
+   which has links to different other sections, modify all those sections as you need.
+
+5- For any comment, please feel free to contact us :-)
+

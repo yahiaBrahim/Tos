@@ -1,0 +1,20 @@
+/*
+ *	msgFr.txt: this file contains all the messages that are printed on the screen;
+ *	version  : 0.1
+ *	Date     : 21/07/2007
+ *	separating messages from code makes it easier to change the language of the operating system
+ *	To port the operating system all you have to do is to redefine the messages that are in this 
+ *	file (rewrite the messages in your language) and then include your file insteed of the 
+ *	default file (english messages), for some languages you need to do some more work, ex :arabic
+ */
+ 
+ #define ERR_BOOT_ERROR		"BOOT ERROR, PLEASE REINSTALL THE BOOT LOADER"
+ 
+ //CONSOLE ERRORS
+ #define ERR_FILE_NOT_FOUND 	"FILE NOT FOUND"
+ #define ERR_CMD_NOT_FOUND	"COMMAND NOT FOUND, TRY 'help'"
+ 
+ //MEMORY ERRORS
+ 
+ 
+ //ADD YOUR MESSAGES HERE

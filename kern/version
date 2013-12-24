@@ -1,0 +1,12 @@
+/*
+ * -----------------------------------------------------------------------------
+ * This file is a part of the TestOs project (TOS), which aims to give students 
+ * and researchers a full set of functions and libraries that can help them to 
+ * test there own projects.
+ * This program is free software; you can redistribute it and/or modify it under 
+ * the terms of the GNU General Public License (GPL).
+ * -----------------------------------------------------------------------------
+ */
+
+#define 	_VERSION_  	0.1.5
+#define 	_DATE_ 		"01/02/2008"

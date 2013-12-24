@@ -1,0 +1,20 @@
+qemu:
+-----
+QEMU is a generic and open source machine emulator and virtualizer. 
+web site: http://bellard.org/qemu/
+
+
+Installing QEMU:
+----------------
+Ubuntu: install it using :
+sudo apt-get install qemu
+you will need an  internel connection, you will need also the two packages :
+bochsbios vgabios
+
+
+Using QEMU to load the TestOs:
+------------------------------
+qemu -fda TestOS.img
+this will boot from the TestOs.img floppy image file
+
+

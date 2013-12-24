@@ -1,0 +1,10 @@
+Install on ubuntu:
+------------------
+sudo apt-get install bochs
+this will connect to the internet and download the packages : 
+bochs     bochs-wx
+
+Then use it !
+(To be completed)
+
+
